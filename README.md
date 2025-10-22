@@ -1,20 +1,34 @@
-# 25_26-IMAW-UDA_templateUD3 - Plantilla Bootstrap - Sticky Footer Navbar
+# 25_26-IMAW-UDA_templateUD3 - Template Bootstrap 5 - Sticky Footer Navbar
 
-Plantilla base adaptada para los ejercicios del módulo **"Implementation of Web Applications" (IMAW)**.
-
-Esta plantilla se basa en el ejemplo oficial de Bootstrap 4:  
-🔗 [Sticky Footer Navbar](https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/)
+Este proyecto es una **plantilla base** para los ejercicios del módulo
+**"Implementación de aplicaciones web"**.\
+Está basada en el ejemplo oficial de Bootstrap 5: [Sticky Footer
+Navbar](https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/).
 
 ---
 
 ## Instrucciones de uso
 
-1. **Descarga** este repositorio o la carpeta base entregada por el profesor.
-2. **Abre** el proyecto en Visual Studio Code o tu editor preferido.
-3. **Edita `index.html`** para comenzar tu ejercicio.  
-   Añade secciones, imágenes o componentes según lo que se indique en la práctica.
-4. Puedes crear nuevas páginas (por ejemplo, `contacto.html`, `productos.html`, etc.) manteniendo el mismo **navbar** y **footer**.
-5. **Guarda los cambios** y **verifica el resultado** en tu navegador.
+1.  **Descarga** este repositorio o clónalo con Git:
+
+    ``` bash
+    git clone https://github.com/tu-usuario/Proyecto_Bootstrap_Template.git
+    ```
+
+2.  **Abre `index.html`** en tu navegador para ver el resultado.
+
+3.  **Edita el contenido** de `index.html` para tus ejercicios:
+
+    -   Cambia el texto del `navbar`.
+    -   Sustituye el contenido principal (`<main>`) por tu código HTML.
+    -   Puedes modificar el footer o los estilos CSS si lo deseas.
+
+4.  **Agrega tus recursos:**
+
+    -   Imágenes dentro de `/img`.
+    -   Hojas de estilo personalizadas en `/css/propio.css` (si lo
+        creas).
+    -   Archivos JS personalizados en `/js/`.
 
 ---
 
@@ -31,10 +45,12 @@ La plantilla ya incluye los siguientes bloques:
 
 ## Recomendaciones
 
-- No modifiques directamente los archivos de `bootstrap.min.css` ni `bootstrap.min.js`.
-- Personaliza el estilo desde `css/propio.css`.
-- Añade tus scripts (si son necesarios) en `js/propio.js`.
-- Mantén una estructura limpia y ordenada del proyecto.
+-   Respeta la estructura general del HTML para mantener el diseño
+    responsivo.
+-   Usa las clases de **Bootstrap 5** (`container`, `row`, `col`,
+    `card`, `btn`, etc.).
+-   No es necesario tener conexión a Internet si ya tienes los archivos
+    descargados.
 
 ---
 
@@ -48,5 +64,5 @@ La plantilla ya incluye los siguientes bloques:
 
 ## Créditos
 
-Plantilla original de **Bootstrap 4** (MIT License).  
-Adaptada por el profesor **Urtzi Díaz** para el módulo **IMAW 25-26**.
+Plantilla adaptada para uso educativo por **Urtzi Díaz**\
+Basada en el ejemplo original de Bootstrap 5.3
