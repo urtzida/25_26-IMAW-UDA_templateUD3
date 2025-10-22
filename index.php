@@ -6,7 +6,7 @@
     <meta name="description" content="TO-DO" />
     <title>TO-DO</title>
     <script src="js/color-modes.js"></script>
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <meta name="theme-color" content="#712cf9" />
     <link href="sticky-footer-navbar.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/propio.css">
