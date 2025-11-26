@@ -153,33 +153,50 @@
 				<article id="ejer1_1">
 					<h3>Ejercicio 1.1</h3>
 					<p>
-					<?php 
-						//TO-DO
-						?>
+					<?php
+						$nombre="Urtzi";
+						echo "Hola <strong>".$nombre."</strong>, Bienvenido";
+					?>
 					</p>
 				</article>
 				<article id="ejer1_2">
 					<h3>Ejercicio 1.2</h3>
-						<?php 
-						//TO-DO
+						<?php
+						$a=8;
+						$b=3;
+						echo "<p>a = $a</p>";
+						echo "<p>b = $b</p>";
+						echo "<p>a + b = ".($a+$b)."</p>";
+						echo "<p>a - b = ".($a-$b)."</p>";
+						echo "<p>a * b = ".($a*$b)."</p>";
+						echo "<p>a / b = ".($a/$b)."</p>";
+						echo "<p>El resto de dividir a entre b es ".($a%$b)."</p>";
+						
 						?>
 				</article>
 				<article id="ejer1_3">
 					<h3>Ejercicio 1.3</h3>	
-						<?php 
-						//TO-DO
+						<?php
+						$meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+						$mes=4;
+						echo "<p>El mes <strong>$mes</strong> es <strong>".$meses[$mes-1]."</strong>.</p>";
+						
 						?>
 				</article>
 				<article id="ejer1_4">
 					<h3>Ejercicio 1.4</h3>					
-						<?php 
-						//TO-DO
+						<?php
+						$coches=["Renault","Seat","Audi","Mercedes"];
+						$bola=rand(0,3);
+						echo "El coche que te ha tocado es un <strong>".$coches[$bola]."</strong>, Felicidades!!!!";
 						?>
 				</article>
 				<article id="ejer1_5">
 					<h3>Ejercicio 1.5</h3>					
-						<?php 
-						//TO-DO
+						<?php
+						$imagenes=["paisaje1.jpg","paisaje2.jpg","paisaje3.jpg","paisaje4.jpg"];
+						$imagen=rand(0,3);
+						echo "<img style='max-width: 100%;' src='../img/".$imagenes[$imagen]."' alt='Imagen ".$imagenes[$imagen]."' title='Imagen ".$imagenes[$imagen]."'>";
 						?>
 				</article>
 				<br><br>

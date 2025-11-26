@@ -126,10 +126,10 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link" href="ejercicios/ejercicio1.php">ACT1 - Variables</a>
+                <a class="nav-link" href="ejercicios/ejercicio1.php">Variables</a>
               </li>
               <li class="nav-item">
-				<a class="nav-link" href="ejercicios/ejercicio2.php">ACT2 - Funciones y Clases</a></li>
+				<a class="nav-link" href="ejercicios/ejercicio2.php">Funciones y clases</a></li>
             </ul>
             <form class="d-flex" role="search">
               <input

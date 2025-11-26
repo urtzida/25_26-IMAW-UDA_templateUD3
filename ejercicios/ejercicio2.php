@@ -150,34 +150,66 @@
     <!-- Begin page content -->
     <main class="flex-shrink-0">
       <div class="container">
-		<section class="container">
-			<h2>2- Clases y Funciones</h2>
-			<article id="ejer2_1">
-				<h3>Ejercicio 2.1</h3>
-				<?php 
-						//TO-DO
-						?>
-			</article>
-			<article id="ejer2_2">
-				<h3>Ejercicio 2.2</h3>
-				<?php 
-						//TO-DO
-						?>
-			</article>
-			<article id="ejer2_3">
-				<h3>Ejercicio 2.3</h3>
-				<?php 
-						//TO-DO
-						?>
-			</article>
-			<article id="ejer2_4">
-				<h3>Ejercicio 2.4</h3>
-				<?php 
-						//TO-DO
-						?>
-			</article>
-		</section>
-	</div>
+        <section class="container">
+          <h2>2- Clases y Funciones</h2>
+          <article id="ejer2_1">
+            <h3>Ejercicio 2.1</h3>
+            <?php 
+                // Incluir la definición de la clase Bombilla
+                require_once __DIR__ . '/../recursos/bombilla.php';
+
+                // Crear objeto, encender y luego apagar
+                $bombilla = new Bombilla();
+                $bombilla->encender();
+                $bombilla->apagar();
+            ?>
+          </article>
+          <article id="ejer2_2">
+            <h3>Ejercicio 2.2</h3>
+            <p>
+              <?php
+                // Incluir el archivo con la función
+                require_once '../recursos/trigonometria.php';
+
+                // Variables con los catetos
+                $cateto1 = 10.0;
+                $cateto2 = 15.0;
+
+                // Cálculo de la hipotenusa
+                $hipotenusa = calculaHipotenusa($cateto1, $cateto2);
+                echo "Un triángulo rectángulo con catetos de $cateto1 y $cateto2, tiene una hipotenusa de $hipotenusa.";
+              ?>
+            </p>
+          </article>
+          <article id="ejer2_3">
+            <h3>Ejercicio 2.3</h3>
+              <?php
+                // Incluir el archivo con la clase Cubo
+                require_once '../recursos/cubo.php';
+
+                // Crear un cubo con tamaño concreto (por ejemplo 3)
+                $cubo = new Cubo(3);
+
+                // Revolver el cubo
+                $cubo->revolver(); 
+                ?>
+          </article>
+          <article id="ejer2_4">
+            <h3>Ejercicio 2.4</h3>
+              <?php
+                // Incluir el archivo con la clase Pokemon
+                require_once '../recursos/pokemon.php';
+
+                // Crear un objeto de la clase Pokemon
+                $pikachu = new Pokemon("Pikachu");
+
+                // Llamar dos veces al método herir
+                $pikachu->herir(3);
+                $pikachu->herir(14);
+              ?>
+          </article>
+        </section>
+      </div>
     </main>
     <footer class="footer mt-auto py-3 bg-body-tertiary">
       <div class="container">

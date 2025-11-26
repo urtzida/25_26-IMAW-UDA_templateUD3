@@ -1,7 +1,7 @@
 # 25_26-IMAW-UDA_templateUD3 - Template Bootstrap 5 - Sticky Footer Navbar
 
 Este proyecto es una **plantilla base** para los ejercicios del módulo
-**"Implementación de aplicaciones web"**.\
+**"Implantación de aplicaciones web"**.\
 Está basada en el ejemplo oficial de Bootstrap 5: [Sticky Footer
 Navbar](https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/).
 
@@ -36,7 +36,7 @@ Navbar](https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/).
 
 La plantilla ya incluye los siguientes bloques:
 
-- **Header** con imagen de fondo.
+- **Header** con fondo de color negro sólido.
 - **Navbar** fija con enlaces de navegación.
 - **Contenido principal (`<main>`)** donde irán tus ejercicios o secciones.
 - **Footer** fijo al final de la página.
@@ -46,7 +46,7 @@ La plantilla ya incluye los siguientes bloques:
 ## Recomendaciones
 
 -   Respeta la estructura general del HTML para mantener el diseño
-    responsivo.
+    responsivo/adaptativo.
 -   Usa las clases de **Bootstrap 5** (`container`, `row`, `col`,
     `card`, `btn`, etc.).
 -   No es necesario tener conexión a Internet si ya tienes los archivos
